@@ -30,8 +30,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency('ruby-debug19')
   
   s.add_runtime_dependency('hashie', '~> 1.2')
-  s.add_runtime_dependency('faraday', '~> 0.7.0')
-  s.add_runtime_dependency('faraday_middleware', '~> 0.7.0')
+  s.add_runtime_dependency('faraday', '~> 0.8')
+  s.add_runtime_dependency('faraday_middleware', '~> 0.8.0')
   s.add_runtime_dependency('multi_json', '~> 1.2')
   s.add_runtime_dependency('rash', '~> 0.3.0')
 end
